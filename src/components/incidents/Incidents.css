@@ -1,0 +1,86 @@
+@import '~antd/dist/antd.css';
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+.incidents-container {
+  max-width: 92vw;
+  margin: auto;
+}
+.incidents-page {
+  max-width: 92vw;
+}
+
+.export-form {
+  width: 100%;
+  border: rgba(131, 84, 84, 0.25) 1px solid;
+  padding: 16px;
+  margin: 16px 0;
+}
+.form-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.collapse-content {
+  display: flex;
+}
+.incidents-page header .user-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.tag-group {
+}
+.ant-collapse-header {
+  display: inline-block;
+  width: 100%;
+}
+
+.panel {
+}
+.extra {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+}
+.rank-select {
+  width: 64px;
+}
+.incidentDate {
+  display: inline-flex;
+  margin: 0px 8px;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 2.5vh;
+}
+
+@media screen and (max-width: 1081px) {
+  .incidents-page header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=Incidents.css.map */
